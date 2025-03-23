@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creatifyx | Software Design Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Creatifyx_by_SkylineSyntax_Product_copy-removebg-preview.png" type="image/x-icon">
+    <!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    /* Parallax Background */
+    .parallax {
+            background-image: url('images/contact.webp');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Glassmorphism Effect */
+        .glass {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+</style>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">CreatifyX</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+           
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Creatifyx – Where Creativity Meets Innovation!</h1>
+            <p>From branding to web design, we bring your ideas to life with creativity and precision.</p>
+            <a href="#services" class="btn">Let’s Create!</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+<section id="services" style="width: 100%;">
+    <h2>Our Services</h2>
+    <div class="services-wrapper">
+        <div class="services-container" >
+            <a href="service.html?name=Poster Maker&img=poster.jpg">  
+                <div class="service"><img src="images/poster.jpg" alt="Poster Maker"><p>Poster Maker</p></div>
+            </a>
+            <a href="service.html?name=Banner Maker&img=banner.jpg">  
+                <div class="service"><img src="images/banner.jpg" alt="Banner Maker"><p>Banner Maker</p></div>
+            </a>
+            <a href="service.html?name=Web Design&img=design.jpg">  
+                <div class="service"><img src="images/design.jpg" alt="Web Design"><p>Web Design</p></div>
+            </a>
+            <a href="service.html?name=Resume&img=resume.jpg">  
+                <div class="service"><img src="images/resume.jpg" alt="Resume"><p>Resume</p></div>
+            </a>
+            <a href="service.html?name=Logo Maker&img=Logo.jpg">  
+                <div class="service"><img src="images/Logo.jpg" alt="Logo Maker"><p>Logo Maker</p></div>
+            </a>
+            <a href="service.html?name=Presentation&img=presentation.jpg">  
+                <div class="service"><img src="images/presentation.jpg" alt="Presentation"><p>Presentation</p></div>
+            </a>
+            <a href="service.html?name=Flyer&img=flyer.jpg">  
+                <div class="service"><img src="images/flyer.jpg" alt="Flyer"><p>Flyer</p></div>
+            </a>
+            <a href="service.html?name=Thumbnail Maker&img=thumbnail.jpg">  
+                <div class="service"><img src="images/thumbnail.jpg" alt="Thumbnail Maker"><p>Thumbnail Maker</p></div>
+            </a>
+            <div class="service"><img src="images/Coming.jpg" alt="Coming"><p>Coming Soon</p></div> 
+            <div class="service"><img src="images/Coming.jpg" alt="Coming"><p>Coming Soon</p></div>
+        </div>
+    </div>
+</section>
+
+
+    <marquee behavior="scroll" direction="left">
+        🚀 CreatifyX – Innovating Digital Experiences! | 🎨 Stunning UI/UX Designs & Web Solutions! | 🤝 Proudly Collaborated with SkylineSyntax PVT LTD! | 💻 Web Development | 📊 Software Solutions | 🏆 Delivering Excellence in Digital Innovation! | 🎯 Get a Free Consultation Today! Call 📞 +91 6280144157 (India)
+    </marquee>
+    
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+                At <strong>Creatifyx</strong>, we specialize in crafting innovative digital solutions that enhance brand identity and online presence.  
+                Our team of experts is dedicated to providing top-tier web development, UI/UX design, and software engineering services tailored to  
+                your business needs. Whether you're a startup or an established enterprise, we bring creativity and technology together  
+                to drive results and success.  
+            </p>
+            <p>
+                We are proud to collaborate with <strong>SkylineSyntax PVT LTD</strong>, a leading digital agency known for its expertise in  
+                website development, branding, and software solutions. Together, we strive to push the boundaries of innovation,  
+                delivering exceptional services to clients worldwide.
+            </p>
+            <p>
+                With a commitment to excellence, we stay ahead of industry trends, ensuring our solutions are modern, efficient,  
+                and impactful. Let’s build something extraordinary together.
+            </p>
+        </div>
+    </section>
+
+
+  <!-- Contact Section -->
+  <section class="parallax py-20 px-6 flex items-center justify-center min-h-screen" id="contact">
+    <div class="glass p-10 max-w-3xl w-full text-center shadow-lg">
+        <h2 class="text-2xl font-extrabold text-dark">Get in Touch</h2>
+        <p class="text-lg text-gray-300 mt-2">We’re here to help you!</p>
+
+        <!-- Contact Details -->
+        <div class="mt-6 flex flex-col gap-4">
+            <p class="text-l font-medium flex items-center justify-center gap-2">
+                📞 <a href="tel:+916280144157" class="hover:text-blue-400 transition">+91 6280144157</a>
+            </p>
+            <p class="text-l font-medium flex items-center justify-center gap-2">
+                ✉️ <a href="mailto:skylinesyntaxweb@gmail.com" class="hover:text-blue-400 transition">skylinesyntaxweb@gmail.com</a>
+            </p>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="mt-8 space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 text-white border border-gray-400 focus:ring-2 focus:ring-blue-500 focus:outline-none transition">
+            
+            <input type="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 text-white border border-gray-400 focus:ring-2 focus:ring-blue-500 focus:outline-none transition">
+            
+            <textarea placeholder="Your Message" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 text-white border border-gray-400 focus:ring-2 focus:ring-blue-500 focus:outline-none transition h-32"></textarea>
+            
+            <button type="submit" class="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:opacity-90 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+<!--Footer Section-->
+
+<footer class="bg-gray-900 text-white py-10">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        
+        <!-- Logo & About -->
+        <div class="flex flex-col items-center md:items-start">
+            <img src="images/Creatifyx by SkylineSyntax Product copy.png" alt="Logo" class="h-12"> 
+            <p class="text-gray-400 mt-3 max-w-xs">Building the future with innovative web solutions.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+            <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+                <li><a href="#" class="text-gray-400 hover:text-blue-400 transition">Home</a></li>
+                <li><a href="#services" class="text-gray-400 hover:text-blue-400 transition">Services</a></li>
+                <li><a href="#about" class="text-gray-400 hover:text-blue-400 transition">About</a></li>
+                <li><a href="#contact" class="text-gray-400 hover:text-blue-400 transition">Contact</a></li>
+            </ul>
+        </div>
+
+        
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500">
+        <p>© 2025 Creatifyx. All Rights Reserved.</p>
+        <p class="mt-2">Designed by <a href="https://www.skylinesyntax.shop" class="text-blue-400 hover:underline">SkylineSyntax PVT LTD</a></p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+
+    
+    <script src="script.js"></script> 
+</body>
+</html>
